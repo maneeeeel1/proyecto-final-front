@@ -1,0 +1,31 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+
+section{
+  scroll-snap-type: y mandatory;
+}
+
+.simplebar-track.simplebar-vertical{
+  width: 4px;
+  background-color: transparent;
+}
+
+.simplebar-scrollbar:before {
+  background-color: rgb(150, 150, 150) !important;
+  border-radius: 10px;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+  font-size: 2.5em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+}
