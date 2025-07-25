@@ -164,3 +164,32 @@
 .add-to-cart-btn.light-theme {
   background-color: #dbd9d9ff;
 }
+
+@media (max-width: 400px) {
+.section{
+        height: 85vh;
+        padding: 80px 20px 0;
+        background-color: black;
+        color: #e0e0e0;
+    }
+
+.title{
+        padding-bottom: 20px;
+        width: 50%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+.box{
+        border:2px solid #555;
+        border-radius: 12px;
+        height: 70vh;
+        width: 90%;
+        margin:0 auto;
+        padding: 5px 10px;
+        overflow-y: auto;
+        background-color: #333;
+        box-shadow: 4px 4px 8px rgba(255,255,255, 0.1);
+    }
+}

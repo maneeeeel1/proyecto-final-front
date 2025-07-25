@@ -5,11 +5,12 @@
         font-family: Arial, sans-serif;
 }
 
-.title{
+.title_cesta{
         text-align: center;
         color: #333;
         margin-bottom: 30px;
 }
+
 
 .empty-cart-message{
         text-align: center;

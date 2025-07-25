@@ -48,7 +48,7 @@ function CartPage() {
 
     return (
         <div className="container">
-            <h2 className="title">Cesta</h2>
+            <h2 className="title_cesta">Cesta</h2>
             {cartItems.length === 0 ? (
                 <p className="empty-cart-message">Tu carrito está vacío. ¡Añade algún PokePeluche!</p>
             ) : (

@@ -42,10 +42,13 @@ function NavBar (){
                     <img src="../../buttonsPlay/poke-slider.png" className="poke-img"></img>
                 </label>
             </div>
+            
+            <div className="letras">
             <a onClick={() => handleSpaNavigation("hero")} className="navlink">INICIO</a>
             <a onClick={() => handleSpaNavigation("game")} className="navlink">JUGAR</a>
             <a onClick={() => handleSpaNavigation("pokedex")} className="navlink">POKEDEX</a>
             <a onClick={() => handleSpaNavigation("store")} className="navlink">TIENDA</a>
+            </div>
 
             <Link to="/cart" className="navlink cart-link">
                 <FontAwesomeIcon icon={faShoppingBasket} />

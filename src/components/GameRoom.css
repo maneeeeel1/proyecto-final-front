@@ -2,6 +2,7 @@ body {
     margin: auto;
 }
 
+
 .game-room {
     margin: 10px;
     padding: 10px;
@@ -138,7 +139,7 @@ body {
       }
 
     .botones_inputs {
-        width: 100px;
+        width: 130px;
         height: 25px;
         font-size: 12px;
         margin: 8px;
@@ -183,7 +184,7 @@ body {
     }
 
     .botones_inputs {
-        width: 60px;
+        width: 100px;
         height: 22px;
         font-size: 12px;
         margin: 5px;
